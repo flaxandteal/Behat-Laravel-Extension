@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "behat/behat": "dev-bug/1108-serialization-of-closure-is-not-allowed",
+        "behat/behat": "dev-master",
         "behat/mink-browserkit-driver": "~1.2"
     },
     "require-dev": {
