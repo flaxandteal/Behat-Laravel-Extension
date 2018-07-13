@@ -4,6 +4,12 @@
     "description": "Laravel extension for Behat",
     "keywords": ["laravel", "behat", "extension", "bdd"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/flaxandteal/Behat"
+        }
+    ],
     "authors": [
         {
             "name": "JeffreyWay",
@@ -17,7 +23,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "behat/behat": "~3.0",
+        "behat/behat": "dev-bug/1108-serialization-of-closure-is-not-allowed",
         "behat/mink-browserkit-driver": "~1.2"
     },
     "require-dev": {
